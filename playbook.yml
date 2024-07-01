@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - zabbix-agent
+    - redis
+    - add_user

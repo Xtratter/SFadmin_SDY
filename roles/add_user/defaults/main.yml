@@ -1,0 +1,6 @@
+---
+- name: Add user
+  user:
+      name: "{{ username }}"
+          state: present
+              groups: "{{ groups }}"
